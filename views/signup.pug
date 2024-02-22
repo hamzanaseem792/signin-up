@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+    script(src='https://kit.fontawesome.com/2b421997ec.js' crossorigin='anonymous')
+
+block style
+    style 
+        include ../static/style.css
+
+block content 
+    .container
+        h1 Sign up
+        form(action="/signup" method="post") 
+            .box
+                i.fa-regular.fa-envelope
+                input#email(type='email' name='email' placeholder='Enter your Email')
+            .box
+                i.fa-solid.fa-lock
+                input#password(type='password' name='password' placeholder='Enter Your Password')
+                button#signup-btn.btn(type='submit') Sign Up

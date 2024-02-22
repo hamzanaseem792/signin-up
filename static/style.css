@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/static/he.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+   
+    color: #090e09;
+    position: absolute;
+    top: 37%;
+    left: 39%;   
+}
+.container h1{
+    font-size: 39px;
+    border-bottom: 3px solid #090e09;
+    margin-bottom: 14px;
+    padding: 13px 0;
+    display: inline-block;
+    
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid #090e09;
+    margin: 21px 0;
+  
+}
+.box input{
+    background: none;
+    width: 75%;
+    
+    font-size: 19px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 5px 10px;
+}
+.box i{
+    width: 9%;
+    text-align: center;
+    
+}
+.btn{
+    cursor:pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 7px 11px;
+    border: 2px solid #090e09;
+    border-radius: 10px;
+    font-size: 19px;
+    background: none;
+    color: #090e09;
+    font-weight: bold;
+}
+.btn:hover{
+   background-color: white;
+   color: #090e09;
+}
+/* #signup-btn {
+    margin-left: 10px;
+} */
+#signup-btn {
+    float: right; /* Float the button to the right */
+    margin-right: 12px; /* Add some spacing between the button and other elements */
+    /* Other styles for the button */
+}
